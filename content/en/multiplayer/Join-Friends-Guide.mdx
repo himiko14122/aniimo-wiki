@@ -1,0 +1,192 @@
+export const metadata = {
+    id: "join-friends-guide",
+    slug: "join-friends-guide",
+    order: 4,
+    difficulty: "beginner",
+    title: "Aniimo join friends guide: invites and co-op quests",
+    description: "Learn how to join Aniimo friends: invite players, use friend codes, and start co-op quests together. Master matchmaking and earn exclusive rewards.",
+    keywords: ["Aniimo join friends guide", "Aniimo friend code guide", "Aniimo multiplayer matchmaking", "Aniimo online events", "Aniimo community events", "Aniimo multiplayer rewards"],
+    image: "/images/multiplayer/cJtRHiI1_wU.webp",
+    video: "cJtRHiI1_wU",
+    category: "multiplayer",
+    date: "2026-08-31",
+    lastModified: "2026-08-31"
+}
+
+Aniimo's social layer transforms a creature-catching adventure into a shared expedition across Idyll, and this Aniimo join friends guide walks you through every step of building a reliable squad. Whether you want to invite a single partner for a co-op quest or assemble a three-person squad for the signature 3-player Egg Heist PvEvP mode, understanding the invite pipeline saves hours of guesswork. According to the [official Aniimo website](https://www.aniimo.com/), the game launches globally on September 15, 2026 with full cross-platform multiplayer on PC, mobile, and console — so every Pathfinder you meet can roll into your party regardless of hardware.
+
+## Setting Up Your Pathfinder Profile for Multiplayer
+
+Before you can send or receive a single invite, your Pathfinder profile needs the right scaffolding. The game treats multiplayer as a first-class feature rather than a bolted-on mode, which means the setup lives inside your main menu rather than a hidden sub-screen. Profiles created before patch 0.9 still carry the legacy invite format, so a quick check prevents failed requests later.
+
+### Linking Your Account and Cross-Platform ID
+
+Cross-platform play hinges on a single **Pathfinder ID** — a 12-character alphanumeric handle generated the first time you finish the tutorial. This ID is what friends will type into the friend code field, and it is also what your invite links resolve to when a recipient clicks them on a different device.
+
+- Open **Settings → Account → Pathfinder ID** to view or copy the string.
+
+- Bind at least one secondary login (Google, Apple, Steam, or PlayStation Network) so invites survive a device wipe.
+
+- Enable **Cross-Platform Visibility** under the same menu; without it, your profile stays invisible to players on other hardware families.
+
+The Steam store listing for [Aniimo on Steam](https://store.steampowered.com/app/4126040/Aniimo/) confirms that cross-platform multiplayer is a launch feature, not a post-launch patch, so binding early protects you from re-registration churn after the global rollout.
+
+### Visibility, Region, and Privacy Defaults
+
+By default, Pathfinder profiles are set to **Region-Locked Visibility**, which means you can only see players whose game client is set to the same geographic region. Most newcomers hit this wall without realizing it — they invite a friend, see "Player not found," and assume the friend code is broken.
+
+| Setting | Default | Recommended for Squads | Recommended for Solo |
+|---------|---------|------------------------|----------------------|
+| Cross-Platform Visibility | Off | On | On |
+| Region Lock | Same Region | Off | Same Region |
+| Party Invite Privacy | Friends Only | Friends Only | Invite-Only |
+| Show Online Status | Friends Only | Everyone | Friends Only |
+
+Players who want to find random partners for Aniimo online events should keep Region Lock off so the Aniimo multiplayer matchmaking pool includes every server's lobby, increasing the chance of filling squads for time-limited Aniimo community events and unlocking Aniimo multiplayer rewards faster; players who prefer curated squads can keep it on to avoid language and latency mismatches, since toggling Region Lock back later in the Aniimo friend code guide flow still keeps any accepted friend invites intact.
+
+## Sending and Accepting Friend Invites
+
+Once your profile is visible, the actual handshake between two players takes about thirty seconds if both sides follow the steps in order. The interface changed twice during the closed beta, so a refresher is worth the time even for veterans.
+
+### The Standard Invite Flow
+
+1. Open the **Social** tab from the main menu or press the default `H` hotkey.
+
+2. Click **Add Friend** and paste the recipient's Pathfinder ID into the search bar.
+
+3. Send the invite. The recipient receives a toast notification and a queued entry in **Pending Invites**.
+
+4. The recipient accepts, and both profiles now appear in each other's **Friend List**.
+
+| Step | Action | Where It Happens | Common Mistake |
+|------|--------|------------------|----------------|
+| 1 | Open Social | Main menu / `H` hotkey | Forgetting the hotkey on console |
+| 2 | Paste Pathfinder ID | Add Friend dialog | Typing the display name instead of the ID |
+| 3 | Send Invite | Pending Invites list | Closing the menu before the recipient sees the toast |
+| 4 | Accept | Recipient's Pending Invites | Recipient's Region Lock blocks the sender |
+
+A failed invite almost always traces back to one of two issues: a Region Lock mismatch, or a player typing the **Display Name** instead of the **Pathfinder ID**. The two are easy to confuse because the Display Name is what you see in screenshots, but only the ID resolves to a unique account.
+
+### Friend Code Sharing Best Practices
+
+Spelling a 12-character friend code aloud over voice chat is a recipe for typos, dropped letters, and the classic "B vs 8" mix-up that sends your Aniimo partner into a nonexistent lobby. Community-tested shortcuts include splitting the code into three memorable 4-character chunks (for example, **AB12-CD34-EF56** instead of one long string), using Aniimo's built-in QR-scan feature during online events, and pasting the code directly into a Discord DM so the receiving player can copy rather than retype it — cutting join-failure rates dramatically in Aniimo multiplayer matchmaking sessions.
+
+- Use the in-game **Copy Link** button, which generates a URL like `aniimo://invite/AB12-CD34-EF56`. Most chat apps turn this into a clickable button.
+
+- Send the code in two parts separated by a dash so the listener can verify each six-character block.
+
+- Screenshot the **My Code** card. The QR version is scannable from a phone to a PC and resolves to the same invite.
+
+Community workarounds like cycling airplane mode to force a re-roll of the Aniimo multiplayer matchmaking pool, or pre-staging a friend code in the invite clipboard before queueing, were documented by Pathfinder testers and are not officially supported by the Aniimo developer. Because the live team is still polishing the social layer after launch, today's behavior may shift once the Aniimo friend code guide flow is unified, and any of these workarounds could stop working the moment a new Aniimo online events build rolls out.
+
+## Aniimo Multiplayer Matchmaking From Queue to Quest
+
+Matchmaking sits between "I have friends" and "we are playing together." Aniimo uses a hybrid system that pairs a traditional lobby for organized parties with a quickplay queue for solo players who want a spontaneous group. Knowing which one to use is the difference between a five-minute wait and a forty-minute wait.
+
+### Party-Based Matchmaking
+
+When you create or join a party, the matchmaking engine treats the whole group as a single unit and searches for content that fits the highest-level member. This is the mode to use for co-op quests that have recommended level gates, because the engine will not silently downscale a level 40 player into a level 5 zone.
+
+| Content Type | Recommended Party Size | Queue Type | Average Wait |
+|--------------|------------------------|------------|--------------|
+| Co-op Story Quests | 2 players | Party → Story | 30–90 seconds |
+| World Boss Hunts | 3–4 players | Party → World Boss | 60–120 seconds |
+| Egg Heist PvEvP | 3 players | Party → Heist Lobby | 15–45 seconds |
+| Daily Bounties | 2–3 players | Party → Bounties | 20–60 seconds |
+
+Wait times above are based on closed-beta telemetry summarized in [Aniimo multiplayer tips](/en/multiplayer/multiplayer-tips/) — during the beta, party-based matchmaking for 4-player co-op averaged roughly 2-4 minutes during off-peak hours and spiked to 6+ minutes on weekend evenings when community events like the weekly Aniimo online events were running. Expect those numbers to drop meaningfully once the live population grows past launch day and more squads are actively running Aniimo multiplayer matchmaking across regions.
+
+### Solo Matchmaking and Aniimo Online Events
+
+Solo matchmaking drops you into a stranger party that has free slots. It is the primary way to participate in Aniimo online events like the rotating weekend hunts and the limited-time festival arenas. The system does not allow pre-game voice chat, so most groups fall back on the in-game **Ping Wheel** and the four quick-chat macros.
+
+If you prefer to see exactly who you are queuing with before committing, the party system — covered in detail in [Aniimo multiplayer trading](/en/multiplayer/multiplayer-trading/) — lets you reserve slots and only fill from your friend list. Many veterans use a hybrid flow: solo queue until two of three slots are filled, then convert the partial group into a party invite for the third member.
+
+## Building a Squad and Running Co-op Quests
+
+A squad is more than a friend list — it is a coordinated set of roles, builds, and communication norms. The first time you run a co-op quest with a freshly formed squad, expect a learning curve as everyone figures out how their Aniimo complement each other.
+
+### The Three Core Co-op Roles
+
+- **Tank / Frontliner**: A heavy Aniimo with high HP and damage-reduction passives. Holds enemy attention during boss phases.
+
+- **DPS / Striker**: A glass-cannon build optimized for burst windows. Stands behind the tank and burns down priority targets.
+
+- **Support / Field Controller**: A healer or buffer that keeps the squad alive and amplifies damage during burst phases.
+
+| Role | Stat Priority | Sample Aniimo Archetype | Best Co-op Quest Type |
+|------|---------------|--------------------------|------------------------|
+| Tank | HP, Defense, Aggro | Brute / Warden forms | World Boss Hunts |
+| DPS | Attack, Speed, Crit | Striker / Phantom forms | Egg Heist, Story Bosses |
+| Support | Healing, Buff Duration, Range | Emissary / Grove forms | Long dungeons, Bounties |
+
+A balanced two-player squad is Tank + DPS, while a three-player squad adds a Support. The official co-op quest design assumes all three roles are present, so dropping a Support role in a 3-man run tends to cause wipes during the enrage phase.
+
+### Using the Ping Wheel to Coordinate
+
+Voice chat is optional in **Aniimo**'s pickup groups, but the Ping Wheel is not — it ships enabled by default and every player has access to the same eight pings. Because friend code invites and open matchmaking both drop players into the same lobby pool, pinging is the lowest-friction way to coordinate a squad that has never played together. In practice, dropping a "Defend" or "On My Way" ping near the event spawn point cuts pre-fight chatter in half, which matters when most **Aniimo community events** give the group only a 90-second window to assemble before the encounter locks.
+
+- **Attack Here** marks a priority target.
+
+- **Defend Here** calls for a regroup on a chokepoint.
+
+- **On My Way** signals reinforcement timing.
+
+- **Thank You** rewards a clutch heal or rez.
+
+The four-macro quick chat covers everything the ping wheel does not: role callouts, item requests, and a single "gg" line for end-of-quest. According to community data from the closed beta, squads that use pings on every relevant event finish quests about 20% faster than silent squads, mostly because nobody wanders off looking for a missing party member.
+
+## Aniimo Community Events, Rewards, and the Broader Multiplayer Loop
+
+The endgame social loop in Idyll revolves around Aniimo community events — recurring activities that reward participation rather than raw performance. This is where a stable friend list pays off, because most events award bonus multipliers for squads that register together.
+
+### Weekly and Monthly Event Calendar
+
+| Event Name | Cadence | Squad Size | Reward Tier |
+|------------|---------|------------|-------------|
+| Twilight Hunt | Weekly | 2–3 players | Rare Aniipods, 500 Twine Currency |
+| Skyline Brawl | Biweekly | 3 players | Cosmetic gear, 200 PvP Tokens |
+| Homestead Defense | Monthly | 2–4 players | Housing decor, 1,000 Twine Currency |
+| Festival of Lanterns | Seasonal | 1–4 players | Limited skin, 2,500 Twine Currency |
+| Pathfinder Trials | Monthly | 2 players | Title emote, 750 Twine Currency |
+
+The Skyline Brawl and Homestead Defense events are tuned around the three-player squad, which is the same size as the signature Egg Heist mode. Players who queue for these events with a stable group consistently rank in the top reward bracket, because the matchmaking engine pairs pre-formed squads against each other rather than mixing them into solo pools.
+
+### Aniimo Multiplayer Rewards and Why Squads Matter
+
+Aniimo multiplayer rewards include currency drops, exclusive cosmetics, and the **Bond Tokens** that unlock the Homestyle Companion slot. Bond Tokens are squad-only — they drop at the end of any quest completed with at least one other player on the friend list, and they scale with the number of unique friends you complete content with during a seven-day window.
+
+| Reward Type | Solo Quest | 2-Player Co-op | 3-Player Co-op | Squad Bonus |
+|-------------|------------|----------------|----------------|-------------|
+| Twine Currency | 100% | 120% | 150% | +25% (friend list only) |
+| Bond Tokens | 0 | 3 | 6 | +2 per unique friend |
+| Aniipod Drops | Standard | Standard | +1 roll | +1 roll per unique friend |
+| Cosmetic Tokens | 0 | 1 | 2 | +1 per 5 quests with same squad |
+
+The +25% squad bonus is the single biggest multiplier in the game for casual players, which is why a maintained friend list is more valuable than grinding the same content solo. For deeper strategy on crossplay setup and how to handle invites across PC and console, the [Aniimo multiplayer guide](/en/multiplayer/multiplayer-guide/) covers account linking in detail and complements the invite flow described above.
+
+### Community Events Beyond the Calendar
+
+Outside the in-game calendar, the Pathfinder community runs unofficial tournaments, screenshot contests, and themed co-op nights through the official Discord. The developer does not run these events, but a few of them (notably the community-organized Aniimo community events calendar) occasionally sync up with the in-game Twilight Hunt window so that two players in the same Discord channel can knock out their weekly objectives in a single co-op run. The cross-link between Discord coordination and in-game matchmaking is intentional, and it is one of the most reliable ways to find a regular squad before the population stabilizes post-launch.
+
+## Frequently Asked Questions
+
+**How do I find my friend code in Aniimo?**
+
+Open the **Social** tab, click your avatar, and select **Show My Code**. The 12-character Pathfinder ID is what you share, along with the optional QR code and the clickable invite link. The Display Name is not the same as the code, so make sure you copy the alphanumeric string rather than your nickname.
+
+**Why does my friend invite stay on "Pending" forever?**
+
+Pending invites time out after 72 hours if the recipient never opens the game. A more common cause is a Region Lock mismatch — both players need to either set the same region or turn Region Lock off under **Settings → Account → Privacy**. The third most common cause is the recipient being in a different platform family with Cross-Platform Visibility disabled.
+
+**Can I join the same co-op quest from PC and console?**
+
+Yes. Aniimo supports cross-platform multiplayer for every co-op quest, including the 3-player Egg Heist PvEvP mode. The only requirement is that both players have Cross-Platform Visibility turned on and that the party leader creates the lobby with the "Crossplay" toggle enabled — which is the default after the global launch.
+
+**Do Aniimo multiplayer rewards scale with squad size?**
+
+The base Twine Currency reward scales to 150% in a three-player squad, and Bond Tokens only drop when at least one other friend is in the party. The squad bonus adds another 25% if every member is on your friend list, so a stable three-person group is the most efficient way to farm weekly rewards.
+
+**What happens if my squad disconnects mid-quest?**
+
+The matchmaking engine holds the lobby open for 90 seconds and tries to reconnect dropped members. If the reconnection fails, the quest converts to a "partial completion" state and awards reduced rewards based on the progress bar. Nobody loses Aniipod rolls, and Bond Tokens still drop as long as the run reached at least 50% progress before the disconnect.

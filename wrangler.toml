@@ -1,0 +1,12 @@
+name = "aniimo-wiki"
+main = "_worker.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./out"
+binding = "ASSETS"
+
+# Custom domains (aniimo-wiki.wiki + www.aniimo-wiki.wiki) were bound via
+# Cloudflare Workers Domains API (OAuth). wrangler 4.106 does not
+# support a [[domains]] top-level field, so the binding is managed through the API
+# (see .codeflicker/state/deployer-return-aniimo-worker.json).

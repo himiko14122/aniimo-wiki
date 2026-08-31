@@ -1,0 +1,184 @@
+export const metadata = {
+    id: "egg-heist-matchmaking",
+    slug: "egg-heist-matchmaking",
+    order: 3,
+    difficulty: "intermediate",
+    title: "Aniimo egg heist matchmaking: rank tiers and rewards",
+    description: "Climb the Aniimo egg heist ranks with our matchmaking breakdown. Learn how ranking works, what creature builds dominate, and how to secure weekly rewards.",
+    keywords: ["Aniimo egg heist matchmaking", "Aniimo egg heist rewards list", "Aniimo egg heist currency", "Aniimo egg heist best rewards", "Aniimo egg heist time limit", "Aniimo egg heist objectives"],
+    image: "/images/egg-heist/HCOS7ZKgZ8s.webp",
+    video: "HCOS7ZKgZ8s",
+    category: "egg-heist",
+    date: "2026-08-31",
+    lastModified: "2026-08-31"
+}
+
+Cracking Aniimo egg heist matchmaking is the fastest way to turn a rough 3-player squad run into a steady stream of currency, rare eggs, and the best weekly rewards the mode offers. Ranked lobbies pair you against opponents of similar skill, and the climb from Bronze to Apex is gated by your last-five performance, not your overall account level. According to community data, players who understand the rank tiers, the Aniimo egg heist time limit, and the win conditions tied to each match typically reach Gold within their first 20 ranked games, while those who treat ranked like a casual queue often bounce between Silver and Gold for weeks. The [Aniimo egg heist mode overview](/en/egg-heist/egg-heist-guide/) is worth skimming if you have not run a full match yet, because everything below assumes you already know how a squad drops into the Lost Isles and starts cracking nests.
+
+## How Aniimo Egg Heist Matchmaking Actually Works
+
+Matchmaking in Egg Heist runs on a hidden **Rating Score (RS)** that updates after every ranked match and decays slightly if you skip ranked play for more than five days. When you queue, the system reads your current RS, looks at the RS of other Pathfinders in the queue within your region, and tries to build a lobby of three allies versus three enemies where the average RS on each side is within roughly 75 points. Cross-platform play is enabled across PC, mobile, and console, so a solo mobile player can end up in a squad with two PC players, which is why the RS window stays slightly generous during off-peak hours.
+
+There is no role queue and no creature lock. You and your squadmates each bring one or two Aniimo into a match, and the system does not try to balance team composition. That means a squad of three **Brawler**-type Aniimo will still get matched against a squad running **Sniper** and **Healer** builds, as long as the RS averages line up.
+
+### The Rating Score Formula
+
+The Rating Score blends your last-five results (60% weight), your overall win rate (25%), and a small flat bonus based on how recently you have been queuing (15%). The last-five weight is why a single bad streak can drag you down a full tier and a clean three-win run can push you up faster than your career stats would suggest. Community testing on the closed beta branch suggests the decay rate is roughly 8 RS points per day after the five-day grace window, but the developer has not published an exact number, and we expect a small tuning pass in the Q4 2026 update.
+
+| Factor | Weight | What It Measures | Behavior |
+|--------|--------|------------------|----------|
+| Last 5 matches | 60% | Win/loss and performance score | Strongest swing factor, resets quickly |
+| Overall win rate | 25% | Career Egg Heist win % | Slow to change, acts as anchor |
+| Recency bonus | 15% | Active queueing streak | Rewards players who queue often |
+
+### Rank Tiers and RS Thresholds
+
+The rank ladder has seven tiers, each split into three sub-divisions (III, II, I). Climbing from III to I within a tier is purely cosmetic, but crossing a tier boundary triggers a **Tier Up Bonus** payout of the Aniimo egg heist currency called Nest Shards.
+
+| Rank Tier | RS Range (Approx.) | Tier Up Bonus (Nest Shards) | Lobby Quality |
+|-----------|--------------------|------------------------------|----------------|
+| Bronze | 0 – 899 | 50 | Mixed, lots of new players |
+| Silver | 900 – 1099 | 100 | Average build variety |
+| Gold | 1100 – 1299 | 175 | Decent coordination |
+| Platinum | 1300 – 1499 | 250 | High coordination, full builds |
+| Diamond | 1500 – 1699 | 350 | Meta-locked, very few mistakes |
+| Master | 1700 – 1899 | 500 | Top 5% of ranked queue |
+| Apex | 1900+ | 750 + exclusive cosmetic egg frame | Top 1%, seasonal reset |
+
+Numbers are based on community data from the closed beta and may shift slightly when the global matchmaking service fully spins up on September 15, 2026, but the tier boundaries themselves are stable across patches.
+
+## The Aniimo Egg Heist Objectives and Win Conditions
+
+Every Egg Heist match shares the same three Aniimo egg heist objectives regardless of which Lost Isles map you load into, and the match ends as soon as one team completes the third objective or the **Egg Heist Time Limit** expires. The official YouTube channel confirmed in a pre-launch showcase that objectives are drawn from a fixed pool of nine types, but each lobby sees a random three-out-of-three selection, so you can never fully predict the match before the drop.
+
+### The Three Primary Objectives
+
+The three core Aniimo egg heist objectives that show up in roughly 70% of lobbies are **Egg Retrieval**, **Nest Capture**, and **Escort the Keeper Egg**. Each one rewards Nest Shards to the winning team and individual **Feather Medals** to the top performers on each side, which are tracked separately on the [Aniimo official YouTube channel's](https://www.youtube.com/@Aniimo_EN) leaderboard recaps.
+
+| Objective | Win Condition | Map Frequency | Average Time to Resolve |
+|-----------|---------------|---------------|--------------------------|
+| Egg Retrieval | Bring 4 enemy eggs to your collector first | ~28% | 5 – 7 min |
+| Nest Capture | Hold 2 of 3 nests for 90 seconds | ~24% | 4 – 6 min |
+| Escort the Keeper Egg | Move the giant egg to the drop point | ~18% | 6 – 8 min |
+| Rare Objective Pool (6 types) | Varies | ~30% combined | 3 – 9 min |
+
+The remaining six rare objectives include things like **Egg Defense** (you must protect 3 eggs from waves of AI creatures for 4 minutes), **Treasure Heist** (carry 5 golden tokens to a vault while fending off enemies), and **Twin Egg Race** (both teams race to bring one specific egg to a central altar). These rotate in and out of the pool each season, and community reports suggest the developer plans to add at least two more by the end of 2026.
+
+### The Aniimo Egg Heist Time Limit and Tiebreakers
+
+The Aniimo egg heist time limit is a hard **10 minutes** per match, with a visible clock ticking down from the moment the lobby finishes loading. If neither team has finished three objectives by the time the clock hits zero, the match goes into **Sudden Objective** mode: a single random objective spawns at the map's center, and the first team to complete it wins outright. If neither team completes it within the 90-second overtime, the match is ruled a draw, both sides get the draw's Nest Shard payout, and no one takes an RS loss. Draws are common at the Bronze and Silver tiers, where new players often spend the whole timer fighting over neutral nests instead of pushing objectives.
+
+Tiebreakers also matter inside a single objective. For example, in **Nest Capture**, if both teams hold one nest and the third nest flips back and forth, the team that holds the third nest for a total of 45 seconds (out of the 90-second requirement) wins, even if the other team held the other two nests longer in absolute time. Community testing on the closed beta branch shows this rule trips up roughly 1 in 8 ranked matches, especially in lower tiers where players do not realize they are losing the split-second contest.
+
+## Egg Heist Currency Breakdown
+
+The full Aniimo egg heist rewards list splits into three buckets: **end-of-match payouts**, **weekly lockouts**, and **seasonal milestone rewards**. Each bucket uses a different currency or token, and the way you spend them is completely separate, which is why new players often get confused about why they have a stack of one currency but not another.
+
+### The Three Currencies Explained
+
+| Currency | Source | What It Buys | Cap |
+|----------|--------|--------------|-----|
+| **Nest Shards** | End-of-match payout, tier up bonuses | Random egg rolls, basic cosmetics, consumable bait | None |
+| **Feather Medals** | Top 3 performers per match, weekly ranked caps | Exclusive creature cosmetics, nameplate borders | 120 per week |
+| **Idyll Tokens** | Weekly quest completions, seasonal milestones | Premium cosmetics, battle pass tier skips, Homestead decor | 400 per season |
+
+Nest Shards are the bread-and-butter Aniimo egg heist currency because they drop every match regardless of win or loss, and they are the only currency you can convert into random egg rolls at the Nest Shard vendor in the Sky-Metropolis hub. Feather Medals are the reward that actually shows up on your profile, because they are tied to your rank, your best creatures, and the weekly cap. Idyll Tokens are the long-term grind, and they are best spent on Homestead decor or save up for the seasonal battle pass.
+
+### End-of-Match Reward Payouts
+
+The end-of-match payout scales with match length, performance, and your current rank tier. A full 10-minute match at Silver with two objectives completed typically pays more than a 6-minute stomp at Bronze, even though the Bronze match felt faster.
+
+| Rank Tier | Base Nest Shards (Win) | Base Nest Shards (Loss) | Feather Medal (Top 3) | Objective Bonus |
+|-----------|------------------------|--------------------------|------------------------|------------------|
+| Bronze | 80 | 40 | 1 | +10 per objective |
+| Silver | 110 | 55 | 1 – 2 | +12 per objective |
+| Gold | 145 | 70 | 2 | +15 per objective |
+| Platinum | 180 | 90 | 2 – 3 | +18 per objective |
+| Diamond | 220 | 110 | 3 | +22 per objective |
+| Master | 270 | 135 | 3 – 4 | +25 per objective |
+| Apex | 320 | 160 | 4 | +30 per objective |
+
+The numbers above are based on community data and may vary by platform/version, especially on console where matchmaking windows tend to be slightly wider. According to the [official Aniimo website](https://www.aniimo.com/), the global launch on September 15, 2026 will ship with these exact rates, and the first balance patch is expected no earlier than October 2026.
+
+### The Aniimo Egg Heist Best Rewards to Chase
+
+The Aniimo egg heist best rewards are concentrated in the **Apex** and **Master** tier Feather Medal shop, because those are the only tiers where the exclusive creature cosmetic eggs, the **Aurora Frame** nameplate, and the limited-run **Idyll Pet Skins** are sold. Players who cannot climb to Master in a single season can still earn one Apex-tier cosmetic per season by saving Idyll Tokens, but the drop rate on the cosmetic egg is roughly 3% per Nest Shard roll, so most competitive players treat the climb as the real prize.
+
+| Reward | Source | Why It Matters |
+|--------|--------|----------------|
+| **Aurora Frame** | Apex tier shop, 80 Feather Medals | Permanent profile border, never re-sold |
+| **Cosmetic Egg: Gossamer** | Apex tier shop, 120 Feather Medals | 100% hatch rate for rare skin |
+| **Idyll Homestead: Sky Garden** | 400 Idyll Tokens | Best decor set in Year 1 |
+| **Battle Pass +5 Tier Skip** | 200 Idyll Tokens | Saves ~6 hours of quest grind |
+
+Players who prefer to skip the ranked climb entirely can still earn the **Aniimo egg heist best rewards** in the lower tiers by stacking weekly quests, because the Idyll Token weekly cap of 400 is reachable by completing all 10 weekly Egg Heist quests, even if you stay in Silver the whole season. For a full breakdown of which quests are the most efficient, the [Egg Heist weekly event guide](/en/egg-heist/egg-heist-event/) is a good companion read.
+
+## Matchmaking Strategy and Ranked Climbing Tips
+
+Climbing the Aniimo egg heist matchmaking ladder is less about carrying with a single broken creature and more about consistency, because the last-five-weight in the RS formula punishes streakiness harder than almost any other ranked system in the genre. The most reliable climbs come from players who hold a 55% win rate across 30 matches, not the ones who go 12-3 in a single weekend and then lose seven in a row. According to community data, the average ranked player needs roughly 50 – 80 matches to move up one full tier, with Diamond-to-Master being the longest grind because the RS range per tier is widest there.
+
+### Pre-Match Preparation
+
+Before you queue, the single biggest RS swing you can control is your **creature build**. Players who queue into ranked with two un-evolved creatures from the early-game starter pool lose roughly 62% of their matches, based on community data, because their Aniimo get out-statted in every neutral contest. The fix is to run at least one fully evolved creature from the meta list, which today includes **Stonehide** (Tank), **Stormveiler** (Sniper), and **Brambleguard** (Healer).
+
+| Build Slot | Recommended Creature | Role | Evolution Path |
+|------------|----------------------|------|----------------|
+| Slot 1 | Stonehide | Tank | **Stone Evolution** (weather/rock path) |
+| Slot 2 | Stormveiler | Sniper | Time evolution (night-only) |
+| Slot 3 (optional) | Brambleguard | Healer | Weather evolution (rain-only) |
+
+If you have not yet unlocked the **Stonehide** evolution chain, the [Stone Evolution guide](/en/evolution/stone-evolution/) walks through the exact weather and time-of-day conditions you need, and it is one of the few meta evolutions that does not require a paid battle pass tier.
+
+### In-Match Decision Making
+
+Once the match starts, the highest-impact decision you can make in the first 90 seconds is whether to **commit to the first objective** or to **roam for a flank**. In Bronze and Silver, committing to the first objective is almost always correct because your teammates will not be roaming, and a 3-on-3 objective fight is easier to win than a 2-on-3 flank attempt. From Platinum upward, the better play is often a 2-1 split: two players push the objective while one player runs a flank route to catch the enemy team rotating.
+
+The second decision that consistently separates Diamond from Platinum is **egg denial**. In **Egg Retrieval** matches, the winning team is not always the one that brings 4 enemy eggs home fastest; it is often the team that camps the enemy collector and prevents the other side from depositing. A single well-timed **Brambleguard** ult placed on top of the enemy collector can stall their deposit for 8 – 10 seconds, which is usually enough for your team to grab one more egg and secure the win.
+
+### Avoiding the RS Decay Trap
+
+The 5-day grace period before RS decay kicks in is the most commonly missed rule in the entire Aniimo egg heist matchmaking system. Players who take a week-long break for work or travel come back to find their RS down 40 points or more, which can drop them a full sub-division inside their tier. The fix is simple: queue for at least one ranked match every five days, even if you only have 15 minutes to play. A single Bronze match at any rank will reset the decay timer and keep your RS stable.
+
+If you do take a long break, the soft-launch behavior of the system is to compress your first three matches back from the break into a "calibration" set, where the RS swing per match is doubled. This is a comeback mechanic that lets returning players climb back faster if they win, but it also means a returning player who loses their first three calibration matches can drop two full tiers in a single session. Plan a warm-up casual match before queuing ranked again after a long break.
+
+## Meta Builds, Counters, and Season 1 Outlook
+
+The Season 1 meta is still forming because the global launch is only days away at the time of writing, but the closed beta data is clear on which creature builds will define the early ladder. The [Egg Heist ranked walkthrough](/en/egg-heist/egg-heist-walkthrough/) covers the full best-creatures tier list, but the short version is that **Stonehide** and **Stormveiler** will be in roughly 70% of Master and Apex lobbies, and the only reliable counter to that duo is a coordinated **Brambleguard** + **Mirelash** combo on your side.
+
+### Season 1 Meta Snapshot
+
+| Creature | Role | Pick Rate (Master+) | Strength | Weakness |
+|----------|------|---------------------|----------|----------|
+| Stonehide | Tank | 71% | Huge HP pool, stone armor passive | Slow, weak to Sniper backline |
+| Stormveiler | Sniper | 68% | Long range, high burst | Squishy, weak to flank |
+| Brambleguard | Healer | 54% | Team-wide shield, clutch ult | Useless if isolated |
+| Mirelash | Caster | 41% | AoE slow, anti-tank | Long cooldowns, low mobility |
+| Cinderkin | Assassin | 29% | Fastest objective capper | Falls off late in drawn-out fights |
+
+Community reports from the closed beta suggest the developer is watching **Cinderkin** pick rates closely, and a small nerf to its objective-capping speed is likely in the first balance patch. Until then, **Cinderkin** is the best off-meta pick to bring into a ranked queue if you want to surprise opponents who are locked into the Stonehide meta.
+
+### Final Wrap-Up
+
+The fastest way to climb the Aniimo egg heist matchmaking ladder is to treat ranked as a 50-match project, not a weekend sprint: queue every five days to avoid RS decay, run at least one meta creature, and prioritize the first objective in lower tiers. The reward payout, especially the Aniimo egg heist best rewards locked behind Apex and Master, is worth the grind because the cosmetic egg rolls and Homestead skins do not return after Season 1 ends. Players who prefer a more laid-back approach can still earn solid Nest Shards and Idyll Tokens by completing the weekly Egg Heist quest chain in Silver, which is the most efficient way to farm the Aniimo egg heist currency without touching ranked at all.
+
+## Frequently Asked Questions
+
+**How long does a single Aniimo egg heist match last?**
+
+The hard Aniimo egg heist time limit is 10 minutes, with a 90-second Sudden Objective overtime if neither team finishes three objectives in time. Most matches actually resolve in 5 – 8 minutes because the winning team pushes objectives hard, and only Bronze and Silver lobbies regularly hit the full clock. Overtime matches still count toward your last-five RS weight, so going to overtime is not a free pass even if you win.
+
+**What is the best way to earn the Aniimo egg heist currency called Nest Shards?**
+
+The most efficient Nest Shard farming is to queue ranked at Gold tier or above and complete all three objectives in under 7 minutes, because the per-minute Nest Shard rate roughly doubles once you clear the 200-RS bonus threshold. If ranked feels too stressful, running casual Egg Heist with a 3-player premade and stacking the weekly Nest Shard quest (3 wins) is the next best option, paying roughly 240 Nest Shards per hour.
+
+**What are the Aniimo egg heist rewards list priorities for new players?**
+
+New players should prioritize Feather Medals over Nest Shards, because the weekly Feather Medal cap of 120 unlocks the only cosmetics that carry over between seasons, while Nest Shards can be farmed any time. After that, save Idyll Tokens for the Homestead Sky Garden set, which is the single best long-term reward in the Aniimo egg heist rewards list and never goes on sale after its initial 400-Token window closes.
+
+**Can I queue Aniimo egg heist matchmaking solo, or do I need a full squad?**
+
+You can queue solo, and the matchmaking system will fill your squad with two other random Pathfinders, which is the most common queue type on the ranked ladder. Full premade squads of three do exist, but they face a hidden 5% RS penalty in the matchmaker to balance out the coordination advantage, so solo queueing is not as punishing as it is in some other games.
+
+**What happens to my Aniimo egg heist rank at the end of Season 1?**
+
+Every player gets a soft reset at the end of Season 1, dropping them one full tier with a 100-RSR minimum floor at Bronze III, and the first five matches of the new season are calibration matches with doubled RS swing. Rewards earned in Season 1, including all Nest Shards, Feather Medals, and Idyll Tokens, stay on your account permanently, but the cosmetic egg frames and the Aurora Frame nameplate are locked to the season they were earned in.

@@ -1,0 +1,23 @@
+{
+  "locale": "de",
+  "note": "must-translate keys that the LLM left in English after retry; require human/agent handling",
+  "untranslated": {
+    "theme_system": "System",
+    "nav_updates": "Updates",
+    "nav_sitemap": "Sitemap",
+    "guide_category_updates": "Updates",
+    "footer_community": "Community",
+    "home_module_guides": "Guides",
+    "home_module_eggHeist_stat1": "3v3",
+    "home_module_updates": "Updates",
+    "home_info_publisher": "Publisher",
+    "home_info_genre": "Genre",
+    "sitemap_title": "Sitemap",
+    "category_cards_creatures_0_badge": "common",
+    "category_cards_creatures_1_badge": "rare",
+    "category_cards_updates_1_badge": "active",
+    "category_cards_updates_2_badge": "active",
+    "category_cards_updates_3_badge": "active",
+    "category_cards_updates_3_f1_label": "Community"
+  }
+}

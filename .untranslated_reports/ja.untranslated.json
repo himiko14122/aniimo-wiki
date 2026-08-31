@@ -1,0 +1,8 @@
+{
+  "locale": "ja",
+  "note": "must-translate keys that the LLM left in English after retry; require human/agent handling",
+  "untranslated": {
+    "category_feature_guides_html": "<table><thead><tr><th>Stage</th><th>Focus</th><th>Key Actions</th><th>Recommended Guide</th></tr></thead><tbody><tr><td><span class=\"badge badge-a\">Early</span></td><td>Learn the basics</td><td>Pick a starter, catch with Aniipods, explore Idyll</td><td>Beginner Guide</td></tr><tr><td><span class=\"badge badge-b\">Mid</span></td><td>Grow your team</td><td>Twine into creatures, evolve your Aniimo, unlock abilities</td><td>Twine &amp; Evolution</td></tr><tr><td><span class=\"badge badge-s\">Late</span></td><td>Master content</td><td>Farm Egg Heist, build your Homeland, PvP battles</td><td>Egg Heist Guide</td></tr></tbody></table>",
+    "category_feature_egg-heist_html": "<table><thead><tr><th>Element</th><th>Detail</th><th>Player Impact</th><th>Tip</th></tr></thead><tbody><tr><td>Team Size</td><td>3 players</td><td>Roles &amp; coordination</td><td>Balanced roster</td></tr><tr><td>Setting</td><td>Lost Isles</td><td>Map knowledge</td><td>Learn spawns</td></tr><tr><td>Core Loop</td><td>Search + battle</td><td>PvEvP tension</td><td>Timing wins</td></tr><tr><td>Rewards</td><td>Progression loot</td><td>Fast growth</td><td>Farm daily</td></tr></tbody></table>"
+  }
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Aniimo original fan-made mascot icon — round chubby creature face -->
+  <!-- Colors: sky blue #69b0de, deep navy #263b74, cream white #edeae5, warm amber #f59e42 -->
+  <!-- Original design, inspired only by the game's cheerful color palette (not the official logo) -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#7fc0ea"/>
+      <stop offset="100%" stop-color="#69b0de"/>
+    </radialGradient>
+    <radialGradient id="belly" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#edeae5"/>
+    </radialGradient>
+  </defs>
+  <!-- rounded squircle background -->
+  <rect x="4" y="4" width="120" height="120" rx="30" fill="url(#bg)" stroke="#263b74" stroke-width="4"/>
+  <!-- ears -->
+  <ellipse cx="38" cy="38" rx="16" ry="18" fill="#69b0de" stroke="#263b74" stroke-width="4" transform="rotate(-20 38 38)"/>
+  <ellipse cx="90" cy="38" rx="16" ry="18" fill="#69b0de" stroke="#263b74" stroke-width="4" transform="rotate(20 90 38)"/>
+  <ellipse cx="40" cy="36" rx="7" ry="8" fill="#f59e42" transform="rotate(-20 40 36)"/>
+  <ellipse cx="88" cy="36" rx="7" ry="8" fill="#f59e42" transform="rotate(20 88 36)"/>
+  <!-- face / belly -->
+  <ellipse cx="64" cy="74" rx="44" ry="40" fill="url(#belly)" stroke="#263b74" stroke-width="4"/>
+  <!-- eyes -->
+  <circle cx="48" cy="66" r="6" fill="#263b74"/>
+  <circle cx="80" cy="66" r="6" fill="#263b74"/>
+  <circle cx="50" cy="64" r="2" fill="#ffffff"/>
+  <circle cx="82" cy="64" r="2" fill="#ffffff"/>
+  <!-- smile -->
+  <path d="M52 84 Q64 94 76 84" fill="none" stroke="#263b74" stroke-width="4" stroke-linecap="round"/>
+  <!-- blush -->
+  <ellipse cx="40" cy="78" rx="5" ry="3" fill="#f59e42" opacity="0.55"/>
+  <ellipse cx="88" cy="78" rx="5" ry="3" fill="#f59e42" opacity="0.55"/>
+</svg>

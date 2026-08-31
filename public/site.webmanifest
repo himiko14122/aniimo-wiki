@@ -1,0 +1,13 @@
+{
+  "name": "Aniimo Wiki",
+  "short_name": "Aniimo",
+  "description": "Aniimo Wiki — free-to-play creature-catching open-world RPG guides. Catching tips, Twine system, evolution, Egg Heist PvEvP, Homeland and the world of Idyll.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1f38",
+  "theme_color": "#f59e42",
+  "icons": [
+    { "src": "/favicon-96x96.png", "sizes": "96x96", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
